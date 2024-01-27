@@ -1,0 +1,2 @@
+first minima: 0
+second minima: 1
