@@ -18,7 +18,7 @@ void insertionSort(int A[], int n)
 
 int main()
 {
-    const int n = 1000;
+    const int n = 100;
     ofstream inputfile("input3.txt");
     inputfile << n << endl;
     int A[n];

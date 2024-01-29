@@ -45,7 +45,7 @@ void quickSort(int A[], int low, int high)
 
 int main()
 {
-    const int n = 1000;
+    const int n = 100;
     ofstream inputfile("input6.txt");
     inputfile << n << endl;
     int A[n];
@@ -64,7 +64,7 @@ int main()
     }
     inputFile.close();
 
-    quickSort(A, 0, n-1);
+    quickSort(A, 0, n - 1);
 
     ofstream outputfile("output6.txt");
 

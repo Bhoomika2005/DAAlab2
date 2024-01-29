@@ -20,7 +20,7 @@ int main()
 {
     const int n = 1000, m = 500;
     ofstream inputfile("input2.txt");
-    inputfile << n << m << endl;
+    inputfile << n << " " << m << endl;
     int A[n];
     for (int i = 0; i < n; i++)
     {
